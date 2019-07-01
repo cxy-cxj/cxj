@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>我的首页</title>
+	</head>
+	<body>
+		<center>
+		<!-- 
+			我们经常在页面上指定其他资源的路径,以便
+			让浏览器加在并进行对应的展示工作.
+			而在页面中指定路径时,我们通常也时使用相对
+			路径的,但是这个相对路径最终是被浏览器解释
+			的.
+			浏览器认为"./"即当前目录指的是当前页面所在
+			的目录.
+			如下:
+			<img src="./bilibili.png">
+			首先我们访问当前页面在浏览器输入的路径为:
+			http://localhost:8088/myweb/index.html
+			因此,浏览器认为该图片实际路径为:
+			http://localhost:8088/myweb/bilibili.png
+			此时,浏览器会再次发起连接,按照该路径象服务端
+			请求图片,并进行显示
+		 -->
+			<img src="./bilibili.png"><br>
+			<input type="text" size="32">
+			<input type="button" value ="哔哩哔哩">
+		</center>
+	</body>
+</html>
